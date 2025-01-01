@@ -73,7 +73,8 @@ body {
     width: 100%;
     height: 100%;
     border: 15px solid #faf5ed;
-    background-color: #f0e7da;
+    background-size: cover;
+    background-color:antiquewhite;
 }
 
 .title {
@@ -90,6 +91,11 @@ body {
     font-size: 8vh;
 }
 
+#school-sub {
+    font-size: 2.5vh;
+    margin-bottom: 3vh;
+}
+
 .poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -102,12 +108,36 @@ body {
     font-style: normal;
   }
 
-  button {
+  .slide button {
     height: 10vh;
     width: fit-content;
     font-size: 4vh;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 0.5vh solid white;
+    margin-top: 32vh;
+  }
+
+  .slide button:hover {
+    cursor: pointer;
+    color: #998243;
+    border: 0.5vh solid #998243;
+  }
+
+  #me-slide {
+    background-image: url("carousel-img/me.jpg");
+  }
+
+  #exp-slide {
+    background-image: url("carousel-img/e-slide.png");
+    background-position-x: center;
+    background-position-y: 5vh;
+  }
+
+  #p-slide {
+    background-image: url("carousel-img/mtracker-code.png");
   }
 
   .navbar {
